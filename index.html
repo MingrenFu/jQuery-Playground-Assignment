@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>jQuery Playground</h1>
+
+    <div class="wrap">
+      <div class="instructions">
+        Try click on a triangle to spin it!
+      </div>
+      <div class= triangles>
+      <div class="tri1 tri"></div>
+      <div class="tri2 tri"></div>
+      <div class="tri3 tri"></div>
+      <div class="tri4 tri"></div>
+      <div class="tri5 tri"></div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="instructions" id="bounceBallInstruction">
+        Double click on a ball to bounce it!
+        click the "STOP" button to reset.
+      <button type="button" class="stopBouncing">Stop</button>
+      </div>
+      <div class="container">
+        <div class="ball ball0"></div>
+        <div class="ball ball1"></div>
+        <div class="ball ball2"></div>
+        <div class="ball ball3"></div>
+        <div class="ball ball4"></div>
+        <div class="ball ball5"></div>
+      </div>
+    </div>
+
+    <!-- Link to jQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Link to my script -->
+    <script src="script.js"></script>
+    <script>
+      (function() {
+        app.initialize();
+      })();
+    </script>
+  </body>
+</html>
